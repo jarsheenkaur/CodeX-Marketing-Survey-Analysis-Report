@@ -37,12 +37,12 @@ Table fact_survey_responses contains 23 columns and 10000 rows.
 | Response_ID         | This column represents the unique identifier assigned to each response in the survey.                                                               |
 | Respondent_ID       | This column represents the unique identifier assigned to each respondent who provided the survey response.                                          |
 | Consume_frequency   | This column represents the response received for the below question.
-How often do you consume energy drinks?
-a) Daily
-b) 2-3 times a week
-c) Once a week
-d) 2-3 times a month
-e) Rarely                                                                                                                                                                   |
+                        How often do you consume energy drinks?
+                        a) Daily
+                        b) 2-3 times a week
+                        c) Once a week
+                        d) 2-3 times a month
+                        e) Rarely                                                                                                                                           |
 | Consume_time   | This column represents the response received for the below question.
 When do you typically consume energy drinks?
 a) Before exercise
