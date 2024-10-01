@@ -15,14 +15,14 @@ Their Marketing team is responsible for increasing brand awareness, market share
 
 The data as well as the problem statement are part of Codebasics Resume Challenge #6 (https://codebasics.io/challenge/codebasics-resume-project-challenge). It consists of the following 3 Tables (as CSV files) :-
 
-Table dim_cities contains 3 columns and 10 rows.
+Table dim_cities contain 3 columns and 10 rows.
 | Column              | Description                                                                                                                                         |
 | :-------------------| :---------------------------------------------------------------------------------------------------------------------------------------------------|
 | City_ID             | This column represents the the ID of the city.                                                                                                      |
 | City                | This column represents name of the city where the respondent is located. ("Delhi","Mumbai", "Bangalore","Chennai", "Kolkata","Hyderabad", "Ahmedabad","Pune","Jaipur", "Lucknow").                                                                                                                                    |
 | Tier             | This column represents the tier category of the city.                                                                                                  |
 
-Table dim_respondents contains 5 columns and 10000 rows.
+Table dim_respondents contain 5 columns and 10000 rows.
 | Column              | Description                                                                                                                                         |
 | :-------------------| :---------------------------------------------------------------------------------------------------------------------------------------------------|
 | Respondent_ID       | This column represents the unique identifier assigned to each respondent in the survey.                                                             |
@@ -31,7 +31,7 @@ Table dim_respondents contains 5 columns and 10000 rows.
 | Gender              | This column represents the gender of the respondent. (Male, Female, Non-binary).                                                                    |
 | City_ID             | This column represents the ID of the city where the respondent is located.                                                                          |
 
-Table fact_survey_responses contains 23 columns and 10000 rows.
+Table fact_survey_responses contain 23 columns and 10000 rows.
 | Column              | Description                                                                                                                                         |
 | :-------------------| :---------------------------------------------------------------------------------------------------------------------------------------------------|
 | Response_ID         | This column represents the unique identifier assigned to each response in the survey.                                                               |
@@ -48,11 +48,11 @@ Table fact_survey_responses contains 23 columns and 10000 rows.
 | Current_brands      | This column represents the response received for the question - Which energy drink brands do you currently consume or prefer?                       |
 | Reasons_for_choosing_brands | This column represents the response received for the question - What are the reasons for choosing those brands over others?                 |
 | Improvements_desired | This column represents the response received for the question - What improvements would you like to see in energy drinks currently available in the market?                                                                                                                                                                     |
-| Ingredients_expected | This column represents the response received for the question - What ingredients do you expect in an energy drink?                                 | | Health_concerns      | This column represents the response received for the question - Are you concerned about the health impacts of energy drinks?                       |
+| Ingredients_expected | This column represents the response received for the question - What ingredients do you expect in an energy drink?                                | | Health_concerns      | This column represents the response received for the question - Are you concerned about the health impacts of energy drinks?                       |
 | Interest_in_natural_or_organic | This column represents the response received for the question - Would you be interested in an energy drink with natural or organic ingredients?                                                                                                                                                                |
 | Marketing_channels   | This column represents the response received for the question - Which marketing channels or platforms do you often come across energy drink advertisements?                                                                                                                                                             |
 | Packaging_preference | This column represents the response received for the question - What type of packaging or bottle design would attract you to purchase an energy drink?                                                                                                                                                                      |
-| Limited_edition_packaging | This column represents the response received for the question - Would you be more likely to buy an energy drink with limited edition packaging?|
+| Limited_edition_packaging | This column represents the response received for the question - Would you be more likely to buy an energy drink with limited edition packaging|
 | Price_range          | This column represents the response received for the question - What price range do you consider reasonable for an energy drink?                   |
 | Purchase_location    | This column represents the response received for the question - Where do you typically purchase energy drinks?                                     |
 | Typical_consumption_situations | This column represents the response received for the question - In which situations or activities do you typically consume energy drinks?|
@@ -67,11 +67,11 @@ Table fact_survey_responses contains 23 columns and 10000 rows.
 
 ## Screenshots
 
-![1  Demographic Insights](https://github.com/user-attachments/assets/df76b52e-7c1b-469c-a655-e68952362aa6)
+![1  Demographic Insights](https://github.com/user-attachments/assets/4df42e0f-1471-4f61-9001-b58a9a7daa7e)
 
 ![2  Consumer Preferences   Purchasing Behavior](https://github.com/user-attachments/assets/396ace91-72bb-4f03-8fcd-2717d480ede6)
 
-![3  Market Research   Competition Analysis](https://github.com/user-attachments/assets/d5845c99-576b-4d5f-97bf-de24416c852b
+![3  Market Research   Competition Analysis](https://github.com/user-attachments/assets/99f41e46-ecea-469a-941e-8e3d37df39d2)
 
 ![4  CodeX Performance](https://github.com/user-attachments/assets/4d049472-7d47-4d30-8067-ee4327fc0cf0)
 
@@ -79,38 +79,35 @@ Table fact_survey_responses contains 23 columns and 10000 rows.
 
 ## Key Insights
 
-**1. Demographic Insights**
-- Men account for 60% of Energy Drink Sales followed by Women at 35% and Non-Binary at 5%.
-- Energy Drinks are more popular among youngsters as 55% of Energy Drinks Consumers belong to age group 19-30. This figure rises to 70% consumers between the ages 15-30.
-- Bangalore has highest Energy Drinks Consumers at 28% followed by Hyderabad at 18%. Lucknow has least Energy Drinks Consumers at 2%.
-- Energy Drinks are frequently consumed by Males mostly for 2-3 Times a Week.
+### **1. Demographic Insights**
+- **Gender Breakdown:** 60% of energy drink consumers are male, 35% female, and 5% non-binary. The energy drink market globally is often dominated by male consumers, who are seen as more inclined toward products associated with physical activity, performance enhancement, and sports.
+- **Age Distribution:** 55% of energy drink consumers are aged 19-30, with the figure rising to 70% in the 15-30 age bracket. Globally, younger demographics are the largest consumers of energy drinks, as they are marketed for high-energy lifestyles such as sports and long study or work hours.
+- **City Insights:** Bangalore leads with 28% of energy drink consumers, followed by Hyderabad at 18%. In contrast, Lucknow accounts for only 2%. Urban areas tend to have higher energy drink consumption due to the fast-paced lifestyle, which aligns with the growth of energy drinks in metro cities like Bangalore.
+- **Consumption Frequency:** Energy drinks are frequently consumed 2-3 times per week, primarily by males and individuals aged 18-30.
 
-**2. Consumer Preferences**
-- Energy Drinks are mostly consumed to Stay Awake during Work or Study and before Exercise.
-- Main reason for consuming Energy Drinks is Increased Energy and Focus.
-- Energy Drinks are typically consumed during Sports or Exercise.
+### **2. Consumer Preferences**
+- **Primary Consumption Reasons:** Consumers primarily drink energy beverages to stay awake during work/study and before exercise, with the top motivations being increased energy and focus. Globally, the energy drink market thrives on the promise of alertness and productivity boosts, valued highly by students and professionals.
+- **Consumption Occasions:** Most respondents consume energy drinks during sports or exercise, mirroring global trends where energy drinks are heavily marketed to athletes and fitness enthusiasts for performance enhancement.
 
-**3. Purchasing Behavior**
-- Supermarkets are the most common choice for buying Energy Drinks followed by Online Retailers.
-- Compact and Portable Cans are preferred Energy Drinks Packaging followed by Innovative Bottle Design.
-- Energy Drinks with Limited Edition Packaging is mostly not preferred.
-- Consumers consider Energy Drinks to be reasonably priced between 50-99 rupees.
+### **3. Purchasing Behavior**
+- **Preferred Purchase Channels:** Supermarkets are the most common purchase location, followed by online retailers. In India, the rapid rise of e-commerce has driven the growth of online purchases of energy drinks, especially during the pandemic.
+- **Packaging Preference:** Consumers favor compact and portable cans, followed by innovative bottle designs. This reflects the global trend where convenience in consumption plays a significant role, with compact packaging preferred for ease of transportation and storage. Additionally, there is little interest in limited edition packaging, indicating that energy drink packaging should focus on everyday practicality rather than exclusivity or novelty.
+- **Price Sensitivity:** The preferred price range for energy drinks is between INR 50-99. Pricing is a critical factor in the Indian market, where affordability often determines brand loyalty, especially in the youth segment.
 
-**4. Market Research**
-- Online Ads are the most effective marketing channel to reach the consumers especially the youth.
-- Energy Drinks are mostly considered to be Effective.
-- Caffeine is the most expected ingredient in Energy Drinks followed by Vitamins.
-- Reduced Sugar Content is highly desired improvement in Energy Drinks followed by More Natural Ingredients.
-- 60% of the Survey Respondents are Concerned about Health Impacts of consuming Energy Drinks.
-- 50% of the Survey Respondents are Interested in Natural or Organic Ingredients to be used in Energy Drinks.
+### **4. Market Research**
+- **Effective Marketing Channels:** Online ads are most effective in reaching young consumers, particularly through platforms like Instagram and YouTube. Globally, digital marketing has proven to be the most powerful tool for energy drinks, particularly in engaging younger, tech-savvy audiences.
+- **Key Ingredients:** Caffeine is the most expected ingredient, followed by vitamins. Caffeine has long been the cornerstone of energy drinks worldwide, known for boosting alertness. However, consumers are increasingly expecting healthier ingredients like vitamins.
+- **Perceived Effectiveness of Energy Drinks:** Consumers generally view energy drinks as effective, primarily for boosting energy, focus, and endurance. This perception underscores their continued use during demanding activities such as work, study, and exercise, highlighting energy drinks' role in improving performance and alertness.
+- **Desired Improvements:** Consumers are calling for reduced sugar content and more natural ingredients, in line with a global shift toward health-conscious beverages. Brands like Red Bull have already begun offering sugar-free options to meet this growing demand.
+- **Health Concerns:** 60% of respondents are concerned about health impacts, and 50% are interested in natural or organic ingredients. This reflects a global consumer trend where awareness of energy drink health risks (heart problems, high sugar content) has led to demand for healthier alternatives.
 
-**5. Competition Analysis**
-- Cola-Coka has the Largest Share in the Energy Drinks Market at 25% closely followed by Bepsi at 21%.
-- Main reason for Consumers choosing Current Brand is Brand Reputation at 27% and Taste or Flavor Preference at 20%.
+### **5. Competition Analysis**
+- **Market Share:** Cola-Coka dominates the Indian energy drinks market with a 25% share, closely followed by Bepsi at 21%. 
+- **Brand Choice Factors:** Consumers select their preferred brands primarily based on brand reputation (27%) and taste/flavor preference (20%). Established brands benefit from high brand equity, making it difficult for new entrants like CodeX to penetrate the market without significant differentiation . 
 
-**6. CodeX Performace**
-- 56% of the Survey Respondents have Never Heard about CodeX before.
-- Only 49% of the Survey Respondents have tasted CodeX before.
-- Average CodeX Taste Rating is 3.28.
-- Main reasons preventing Energy Drinks Consumers for trying CodeX is that it is not available locally and concerns related to their health.
-- Bangalore has the highest availability of CodeX Energy Drinks at 36% whereas Ahemdabad and Lucknow have the least availability at 1% each.
+### **6. CodeX Performace**
+- **Brand Awareness:** 56% of respondents have never heard of CodeX, indicating a critical need for increased marketing efforts. This suggests that CodeX has not yet established a strong brand presence, a major factor in the competitive energy drink market .
+- **Trial Rates:** Only 49% of respondents have tried CodeX, indicating a gap in market penetration. 
+- **Taste Rating:** CodeX’s taste rating of 3.28 shows room for improvement, especially since taste/flavor is the second most important factor for brand preference .
+- **Barriers to Trial:** Limited availability and health concerns are the main reasons preventing consumers from trying CodeX. This indicates that the brand needs to address both distribution challenges and health-related perceptions to succeed .
+- **City-wise Availability:** CodeX is most available in Bangalore (36%), but barely available in cities like Ahmedabad and Lucknow (1%). Expanding availability in these regions could lead to increased trials and brand growth.
