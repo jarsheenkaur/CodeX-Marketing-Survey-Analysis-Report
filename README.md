@@ -19,7 +19,7 @@ Table dim_cities contain 3 columns and 10 rows.
 | Column              | Description                                                                                                                                         |
 | :-------------------| :---------------------------------------------------------------------------------------------------------------------------------------------------|
 | City_ID             | This column represents the the ID of the city.                                                                                                      |
-| City                | This column represents name of the city where the respondent is located. ("Delhi","Mumbai", "Bangalore","Chennai", "Kolkata","Hyderabad", "Ahmedabad","Pune","Jaipur", "Lucknow").                                                                                                                                    |
+| City                | This column represents name of the city where the respondent is located. ("Delhi", "Mumbai", "Bangalore", "Chennai", "Kolkata", "Hyderabad", "Ahmedabad", "Pune", "Jaipur", "Lucknow").                                                                                                                                  |
 | Tier             | This column represents the tier category of the city.                                                                                                  |
 
 Table dim_respondents contain 5 columns and 10000 rows.
@@ -105,7 +105,7 @@ Table fact_survey_responses contain 23 columns and 10000 rows.
 - **Market Share:** Cola-Coka dominates the Indian energy drinks market with a 25% share, closely followed by Bepsi at 21%. 
 - **Brand Choice Factors:** Consumers select their preferred brands primarily based on brand reputation (27%) and taste/flavor preference (20%). Established brands benefit from high brand equity, making it difficult for new entrants like CodeX to penetrate the market without significant differentiation . 
 
-### **6. CodeX Performace**
+### **6. CodeX Performance**
 - **Brand Awareness:** 56% of respondents have never heard of CodeX, indicating a critical need for increased marketing efforts. This suggests that CodeX has not yet established a strong brand presence, a major factor in the competitive energy drink market .
 - **Trial Rates:** Only 49% of respondents have tried CodeX, indicating a gap in market penetration. 
 - **Taste Rating:** CodeX’s taste rating of 3.28 shows room for improvement, especially since taste/flavor is the second most important factor for brand preference .
